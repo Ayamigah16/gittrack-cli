@@ -2,7 +2,7 @@ from urllib import request, error
 from .config import ConfigManager
 import json
 
-class GitHubAPIClient(ConfigManager):
+class GitHubAPIClient():
     """
     A client for interacting with the GitHub API to fetch user activity.
     Args:
