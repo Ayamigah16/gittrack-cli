@@ -2,6 +2,9 @@
 
 **GitTrack** is a simple command-line tool that fetches and displays recent GitHub activity for any user. It uses the GitHub API to show public events such as pushes, forks, and issues, all in a clean and readable format right in your terminal.
 
+## Project URL
+- <a href="https://roadmap.sh/projects/github-user-activity">Click me</a> to view the project decription.
+
 ## Features
 - Fetch recent GitHub activity for any user.
 - Built-in error handling for missing users or connection issues.
