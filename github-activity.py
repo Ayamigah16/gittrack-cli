@@ -2,6 +2,7 @@ from urllib import request
 import json
 import os
 from dotenv import load_dotenv
+import sys
 
 load_dotenv()
 
@@ -75,7 +76,7 @@ def format_event(event):
     
 
 if __name__ == '__main__':
-    username = 'Ayamigah16'
+    username = sys.argv[1]
     activity = get_github_activity(username)
     
     if activity:
